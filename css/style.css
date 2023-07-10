@@ -523,7 +523,6 @@ form {
         margin-top: 0px;
         margin-bottom: 10px;
         text-align: center;
-        font-size: 18px;
         
     }
 
@@ -594,5 +593,5 @@ form {
 }
 
 @media screen and (max-width: 544px){
-
+    
 }
