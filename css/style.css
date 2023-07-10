@@ -498,6 +498,10 @@ form {
 }
 
 @media screen and (max-width: 767px){
+    .branding {
+        font-size: 18px;
+    }
+    
     .navigation-elements li a {
         font-size: 16px;
     }
