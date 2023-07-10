@@ -493,6 +493,10 @@ form {
         height: 216px;
     }
 
+    .section-content {
+        font-size: 13px;
+    }
+
     footer {
         font-size: 13px;
     }
@@ -575,6 +579,10 @@ form {
 
     .event-date {
         font-size: 14px;
+    }
+
+    .section-content {
+        font-size: 16px;
     }
 
     footer {
