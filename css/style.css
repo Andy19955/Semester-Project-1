@@ -44,7 +44,6 @@ button {
 }
 
 p {
-    margin-bottom: 10px;
     text-align: left;
 }
 
@@ -303,6 +302,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 10px 0;
 }
 
 .form-group {
