@@ -66,7 +66,6 @@ p {
     justify-content: space-between;
     color: #DDA111;
     padding: 0 20px 0 20px;
-    font-size: 20px;
     font-weight: bold;
 }
 
@@ -130,9 +129,10 @@ p {
 .hero {
     background: linear-gradient(180deg, #041932 46.15%, rgba(4, 25, 50, 0.77) 100%);
     color: #DDA111;
-    padding: 25px 40px 25px 40px;
+    padding: 25px;
     display: flex;
     justify-content: space-evenly;
+    gap: 10px;
 }
 
 .hero-description,
@@ -220,13 +220,19 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     gap: 10px;
     padding: 15px 10px;
+    height: 100%;
 }
 
 .news-card-title {
     font-size: 20px;
     font-weight: bold;
+}
+
+.news-card p {
+    flex: 1;
 }
 
 .news-card .primary-btn {
@@ -239,7 +245,8 @@ p {
 .plain-v {
     display: flex;
     gap: 25px;
-    padding: 25px 40px;
+    padding: 25px;
+    align-items: center;
 }
 
 .plain-v {
@@ -262,7 +269,7 @@ footer {
     flex-direction: column;
     gap: 20px;
     border-top: 1px solid black;
-    padding: 20px 20px 10px 20px
+    padding: 20px;
 }
 
 .footer-widgets {
@@ -303,4 +310,84 @@ form {
     padding: 12px;
     font-size: 16px;
     border-radius: 5px;
+}
+
+/* Responsive */
+@media screen and (max-width: 1365px){
+
+}
+
+@media screen and (max-width: 1199px){
+    .branding {
+        font-size: 20px;
+    }
+
+    .navigation-elements li a {
+        padding: 0 20px;
+    }
+
+    .hero-description {
+        font-size: 20px;
+    }
+
+    .hero-title {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .hero-slogan {
+        font-size: 20px;
+    }
+
+    .hero-image img {
+        width: 554px;
+        height: 355px;
+    }
+
+    .hero .primary-btn {
+        margin-top: 30px;
+        padding: 12px 25px;
+    }
+
+    .section-title {
+        font-size: 25px;
+    }
+
+    .news-card {
+        width: 290px;
+    }
+
+    .news-card-header {
+        height: 191px;
+    }
+
+    .news-card-header img {
+        width: 290px;
+        height: 191px;
+    }
+
+    .news-card-title {
+        font-size: 16px;
+    }
+
+    .news-card .primary-btn {
+        font-size: 16px;
+    }
+
+    .section-image {
+        width: 490px;
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 991px){
+
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 544px){
+
 }
