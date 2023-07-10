@@ -501,7 +501,7 @@ form {
     .branding {
         font-size: 18px;
     }
-    
+
     .navigation-elements li a {
         font-size: 16px;
     }
@@ -523,6 +523,7 @@ form {
         margin-top: 0px;
         margin-bottom: 10px;
         text-align: center;
+        font-size: 20px;
         
     }
 
@@ -593,7 +594,5 @@ form {
 }
 
 @media screen and (max-width: 544px){
-    .branding {
-        font-size: 18px;
-    }
+
 }
