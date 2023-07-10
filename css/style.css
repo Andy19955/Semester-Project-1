@@ -246,6 +246,7 @@ p {
     gap: 25px;
     padding: 25px;
     align-items: center;
+    background-color: #eee;
 }
 
 .plain-v {
