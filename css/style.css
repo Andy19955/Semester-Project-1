@@ -589,5 +589,7 @@ form {
 }
 
 @media screen and (max-width: 544px){
-
+    .branding {
+        font-size: 18px;
+    }
 }
