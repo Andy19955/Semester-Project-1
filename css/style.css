@@ -369,6 +369,10 @@ p {
     height: 53px;
 }
 
+.info-card-title {
+    font-size: 25px;
+}
+
 
 .info-card-body-h {
     display: flex;
@@ -391,7 +395,7 @@ p {
 
 .info-card img.info-card-side {
     width: 286px;
-    height: 400px;
+    height: 100%;
     border-radius: 0 0 5px 5px;
 }
 
