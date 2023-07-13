@@ -714,6 +714,10 @@ form {
         flex-direction: column;
     }
 
+    .info-card img.info-card-header-cover {
+        height: 40px;
+    }
+
     .info-card-body-images {
         flex-direction: row;
         padding: 0 15px 15px 15px;
@@ -840,6 +844,10 @@ form {
 
     .info-card-title {
         font-size: 16px;
+    }
+
+    .info-card img.info-card-header-cover {
+        height: 35px;
     }
 
     .info-card-body-images {
