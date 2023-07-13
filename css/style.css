@@ -182,7 +182,7 @@ p {
 }
 
 .news-container {
-    margin-top: 25px;
+    padding: 20px 15px;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -291,6 +291,7 @@ p {
 .page-title {
     font-size: 64px;
     font-weight: bold;
+    text-align: center;
 }
 
 .information {
@@ -642,7 +643,7 @@ form {
     }
 
     .news-container {
-        margin-top: 15px;
+        padding: 15px 15px;
     }
 
     .news-card {
