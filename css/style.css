@@ -874,6 +874,10 @@ form {
         font-size: 36px;
     }
 
+    .info-card img.info-card-header-cover {
+        height: 25px;
+    }
+
     .info-card img.info-card-image-square {
         height: 125px;
     }
