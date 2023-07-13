@@ -358,6 +358,10 @@ p {
     border-bottom: 1px solid #333;
 }
 
+.info-card-header-image {
+    text-align: center;
+}
+
 .info-card img.info-card-header-cover {
     height: 53px;
 }
@@ -526,6 +530,11 @@ form {
         height: 320px;
     }
 
+    .info-card-header-image {
+        text-align: center;
+        flex: 1;
+    }
+
     .info-card-body-h {
         gap: 5px;
     }
@@ -541,6 +550,11 @@ form {
 
     .info-card-title {
         font-size: 20px;
+        flex: 1;
+    }
+
+    .placeholder {
+        flex: 1;
     }
 }
 
@@ -665,6 +679,14 @@ form {
         width: 100%;
     }
 
+    .info-card-header-image {
+        text-align: right;
+    }
+
+    .placeholder {
+        display: none;
+    }
+
     .row {
         flex-direction: column;
     }
@@ -776,6 +798,14 @@ form {
 
     .info-card-title {
         font-size: 18px;
+    }
+
+    .info-card-header-image {
+        text-align: right;
+    }
+
+    .info-card .placeholder {
+        display: none;
     }
 
     .info-card img.info-card-side {
