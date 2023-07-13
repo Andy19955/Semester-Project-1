@@ -179,7 +179,6 @@ p {
 .section-title {
     font-size: 32px;
     font-weight: bold;
-    text-align: center;
 }
 
 .news-container {
@@ -254,12 +253,16 @@ p {
     display: flex;
     gap: 25px;
     padding: 25px;
-    align-items: center;
     background-color: #eee;
+}
+
+.plain-h {
+    align-items: center;
 }
 
 .plain-v {
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .section-image {
@@ -364,6 +367,10 @@ p {
 
 .info-card img.info-card-header-cover {
     height: 53px;
+}
+
+.placeholder {
+    flex: 1;
 }
 
 .info-card-body-h {
