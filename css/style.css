@@ -882,6 +882,10 @@ form {
         font-size: 36px;
     }
 
+    .information {
+        padding: 15px 10px;
+    }
+
     .info-card img.info-card-header-cover {
         height: 25px;
     }
