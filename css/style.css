@@ -858,6 +858,9 @@ form {
 @media screen and (max-width: 544px){
     .footer-widgets {
         flex-direction: column;
+    }
+
+    .footer-widgets .widget {
         width: 100%;
     }
 
