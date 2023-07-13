@@ -856,6 +856,10 @@ form {
 }
 
 @media screen and (max-width: 544px){
+    .page-cover {
+        height: 200px;
+    }
+
     .footer-widgets {
         flex-direction: column;
     }
