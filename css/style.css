@@ -294,7 +294,7 @@ p {
 }
 
 .information {
-    padding: 15px 25px;
+    padding: 15px 15px;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -882,12 +882,8 @@ form {
         font-size: 36px;
     }
 
-    .information {
-        padding: 15px 10px;
-    }
-
     .info-card img.info-card-header-cover {
-        height: 25px;
+        height: 20px;
     }
 
     .info-card img.info-card-image-square {
