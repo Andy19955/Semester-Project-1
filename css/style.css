@@ -126,6 +126,8 @@ p {
     font-weight: bold;
     display: inline-block;
     cursor: pointer;
+    font-size: inherit;
+    padding: 10px 20px;
 }
 
 .primary-btn:hover {
@@ -341,6 +343,10 @@ p {
     background-color: #FF55F8;
 }
 
+.grey {
+    background-color: #D8D8D8;
+}
+
 .info-card {
     width: 100%;
     display: flex;
@@ -374,7 +380,6 @@ p {
     font-size: 25px;
 }
 
-
 .info-card-body-h {
     display: flex;
     gap: 40px;
@@ -383,11 +388,12 @@ p {
 .info-card-body-v {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    justify-content: space-between;
 }
 
 .info-card-body-content {
-    padding: 15px 15px 0 15px;
+    padding: 15px;
+    height: 100%;
 }
 
 .info-card-body-content p {
@@ -415,6 +421,12 @@ p {
     justify-content: space-evenly;
 }
 
+.icon {
+    font-size: 50px;
+    color: #DDA111;
+    text-align: center;
+}
+
 /* Footer */
 footer {
     display: flex;
@@ -437,11 +449,6 @@ footer {
     margin-bottom: 10px;
 }
 
-footer .primary-btn {
-    font-size: 20px;
-    padding: 5px 20px;
-}
-
 footer ul li {
     margin-bottom: 5px;
 }
@@ -454,7 +461,7 @@ footer ul li {
 form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 5px;
     padding: 10px 0;
 }
 
@@ -464,9 +471,12 @@ form {
 }
 
 .form-input {
-    padding: 12px;
+    padding: 10px;
     font-size: 16px;
     border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 100%;
 }
 
 /* Responsive */
@@ -809,6 +819,7 @@ form {
 
     .news-card-title {
         font-size: 18px;
+        width: 100%;
     }
 
     .news-card .primary-btn {
