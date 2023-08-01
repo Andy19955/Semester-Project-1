@@ -39,9 +39,6 @@ ul {
     padding: 0;
 }
 
-button {
-    border: none;
-}
 
 p {
     text-align: left;
@@ -62,6 +59,27 @@ p {
 
 .center {
     text-align: center;
+}
+
+/* Buttons */
+button {
+    border: none;
+}
+
+.primary-btn {
+    background-color: #00B75F;
+    color: #041932;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    font-size: inherit;
+    padding: 10px 20px;
+}
+
+.primary-btn:hover {
+    background-color: #00953D;
 }
 
 /* Header */
@@ -116,22 +134,6 @@ p {
 
 #menu-checkbox {
     display: none;
-}
-
-.primary-btn {
-    background-color: #00B75F;
-    color: #041932;
-    border-radius: 5px;
-    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
-    font-weight: bold;
-    display: inline-block;
-    cursor: pointer;
-    font-size: inherit;
-    padding: 10px 20px;
-}
-
-.primary-btn:hover {
-    background-color: #00953D;
 }
 
 /* Hero */
@@ -302,6 +304,8 @@ p {
     flex-direction: column;
     gap: 15px;
 }
+
+/* Info cards */
 
 .green {
     background-color: #3CD78D;
