@@ -31,6 +31,7 @@ img {
 
 main {
     flex: 1;
+    border-bottom: 1px solid black;
 }
 
 ul {
@@ -83,10 +84,15 @@ button {
 }
 
 /* Header */
+.header-bar {
+    background-color: #041932;
+}
+
 .navbar {
     height: 60px;
     width: 100%;
-    background-color: #041932;
+    max-width: 1500px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -140,6 +146,9 @@ button {
 .hero {
     background: linear-gradient(180deg, #041932 46.15%, rgba(4, 25, 50, 0.77) 100%);
     color: #DDA111;
+}
+
+.hero-section {
     padding: 25px;
     display: flex;
     justify-content: space-evenly;
@@ -177,6 +186,9 @@ button {
 /* News preview */
 .news-preview {
     background-color: #DDA111;
+}
+
+.news-section {
     padding: 25px;
 }
 
@@ -253,12 +265,15 @@ button {
 }
 
 /* Main classes */
+.general-info {
+    background-color: #eee;
+}
+
 .plain-h,
 .plain-v {
     display: flex;
     gap: 25px;
     padding: 25px;
-    background-color: #eee;
 }
 
 .plain-h {
@@ -304,6 +319,11 @@ button {
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+.content-wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 /* Info cards */
@@ -434,10 +454,11 @@ button {
 
 /* Footer */
 footer {
+    max-width: 1500px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    border-top: 1px solid black;
     padding: 20px;
 }
 
