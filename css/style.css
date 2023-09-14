@@ -785,7 +785,7 @@ form {
         font-size: 16px;
     }
 
-    .hero {
+    .hero-section {
         flex-direction: column-reverse;
     }
 
