@@ -291,6 +291,7 @@ button {
 .section-image {
     width: 704px;
     height: 382px;
+    object-fit: cover;
 }
 
 .section-content {
