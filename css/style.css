@@ -13,7 +13,7 @@ body {
 body {
     font-family: 'Inter';
     font-size: 16px;
-    background-color: #eee;
+    background-color: #fff;
     color: #000;
     min-height: 100vh;
     display: flex;
@@ -267,6 +267,10 @@ button {
 }
 
 /* Main classes */
+.general-info {
+    background-color: #eee;
+}
+
 .plain-h,
 .plain-v {
     display: flex;
@@ -462,7 +466,6 @@ footer {
     flex-direction: column;
     gap: 20px;
     padding: 20px;
-    background-color: #fff;
 }
 
 .footer-widgets {
