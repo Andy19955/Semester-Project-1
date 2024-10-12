@@ -1,6 +1,6 @@
 # Semester Project 1
 
-![image](https://github.com/Andy19955/Semester-Project-1/blob/master/csm.jpg)
+![image](https://github.com/Andy19955/Semester-Project-1/blob/master/images/community-science-museum.jpg)
 
 ## Description
 
